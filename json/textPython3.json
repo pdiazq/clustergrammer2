@@ -1,0 +1,478 @@
+{
+  "cat_colors": {
+    "row": {
+      "cat-0": {
+        "Type: Not Interesting": "#eee",
+        "Type: Interesting": "#393b79"
+      }
+    },
+    "col": {
+      "cat-1": {
+        "Good: Yes": "#98df8a",
+        "Good: No": "#ff7f0e"
+      },
+      "cat-0": {
+        "Gender: Male": "#404040",
+        "Gender: Female": "#98df8a"
+      }
+    }
+  },
+  "row_nodes": [
+    {
+      "rank": 0,
+      "ini": 3,
+      "group": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ],
+      "cat_0_index": 0,
+      "rankvar": 1,
+      "clust": 0,
+      "cat-0": "Type: Interesting",
+      "name": "Gene: EGFR"
+    },
+    {
+      "rank": 1,
+      "ini": 2,
+      "group": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cat_0_index": 1,
+      "rankvar": 2,
+      "clust": 1,
+      "cat-0": "Type: Not Interesting",
+      "name": "Gene: TP53"
+    },
+    {
+      "rank": 2,
+      "ini": 1,
+      "group": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cat_0_index": 2,
+      "rankvar": 0,
+      "clust": 2,
+      "cat-0": "Type: Not Interesting",
+      "name": "Gene: IRAK"
+    }
+  ],
+  "views": [
+    {
+      "N_row_sum": "all",
+      "dist": "cos",
+      "nodes": {
+        "row_nodes": [
+          {
+            "rank": 0,
+            "ini": 3,
+            "group": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0
+            ],
+            "cat_0_index": 0,
+            "rankvar": 1,
+            "clust": 0,
+            "cat-0": "Type: Interesting",
+            "name": "Gene: EGFR"
+          },
+          {
+            "rank": 1,
+            "ini": 2,
+            "group": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 1,
+            "rankvar": 2,
+            "clust": 1,
+            "cat-0": "Type: Not Interesting",
+            "name": "Gene: TP53"
+          },
+          {
+            "rank": 2,
+            "ini": 1,
+            "group": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 2,
+            "rankvar": 0,
+            "clust": 2,
+            "cat-0": "Type: Not Interesting",
+            "name": "Gene: IRAK"
+          }
+        ],
+        "col_nodes": [
+          {
+            "cat-1": "Good: Yes",
+            "rank": 2,
+            "ini": 3,
+            "group": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 2,
+            "rankvar": 2,
+            "clust": 1,
+            "cat-0": "Gender: Male",
+            "name": "Cell Line: A549",
+            "cat_1_index": 1
+          },
+          {
+            "cat-1": "Good: Yes",
+            "rank": 1,
+            "ini": 2,
+            "group": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 0,
+            "rankvar": 0,
+            "clust": 2,
+            "cat-0": "Gender: Female",
+            "name": "Cell Line: H1299",
+            "cat_1_index": 2
+          },
+          {
+            "cat-1": "Good: No",
+            "rank": 0,
+            "ini": 1,
+            "group": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0
+            ],
+            "cat_0_index": 1,
+            "rankvar": 1,
+            "clust": 0,
+            "cat-0": "Gender: Female",
+            "name": "Cell Line: H661",
+            "cat_1_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "nodes": {
+        "row_nodes": [
+          {
+            "rank": 0,
+            "ini": 3,
+            "group": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0
+            ],
+            "cat_0_index": 0,
+            "rankvar": 1,
+            "clust": 0,
+            "cat-0": "Type: Interesting",
+            "name": "Gene: EGFR"
+          },
+          {
+            "rank": 1,
+            "ini": 2,
+            "group": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 1,
+            "rankvar": 2,
+            "clust": 1,
+            "cat-0": "Type: Not Interesting",
+            "name": "Gene: TP53"
+          },
+          {
+            "rank": 2,
+            "ini": 1,
+            "group": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 2,
+            "rankvar": 0,
+            "clust": 2,
+            "cat-0": "Type: Not Interesting",
+            "name": "Gene: IRAK"
+          }
+        ],
+        "col_nodes": [
+          {
+            "cat-1": "Good: Yes",
+            "rank": 2,
+            "ini": 3,
+            "group": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 2,
+            "rankvar": 2,
+            "clust": 1,
+            "cat-0": "Gender: Male",
+            "name": "Cell Line: A549",
+            "cat_1_index": 1
+          },
+          {
+            "cat-1": "Good: Yes",
+            "rank": 1,
+            "ini": 2,
+            "group": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "cat_0_index": 0,
+            "rankvar": 0,
+            "clust": 2,
+            "cat-0": "Gender: Female",
+            "name": "Cell Line: H1299",
+            "cat_1_index": 2
+          },
+          {
+            "cat-1": "Good: No",
+            "rank": 0,
+            "ini": 1,
+            "group": [
+              3.0,
+              3.0,
+              3.0,
+              3.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0
+            ],
+            "cat_0_index": 1,
+            "rankvar": 1,
+            "clust": 0,
+            "cat-0": "Gender: Female",
+            "name": "Cell Line: H661",
+            "cat_1_index": 0
+          }
+        ]
+      },
+      "dist": "cos",
+      "N_row_var": "all"
+    }
+  ],
+  "links": [],
+  "mat": [
+    [
+      -3.234,
+      5.03,
+      0.001
+    ],
+    [
+      8.3,
+      4.098,
+      -12.2
+    ],
+    [
+      7.23,
+      3.01,
+      0.88
+    ]
+  ],
+  "col_nodes": [
+    {
+      "cat-1": "Good: Yes",
+      "rank": 2,
+      "ini": 3,
+      "group": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cat_0_index": 2,
+      "rankvar": 2,
+      "clust": 1,
+      "cat-0": "Gender: Male",
+      "name": "Cell Line: A549",
+      "cat_1_index": 1
+    },
+    {
+      "cat-1": "Good: Yes",
+      "rank": 1,
+      "ini": 2,
+      "group": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cat_0_index": 0,
+      "rankvar": 0,
+      "clust": 2,
+      "cat-0": "Gender: Female",
+      "name": "Cell Line: H1299",
+      "cat_1_index": 2
+    },
+    {
+      "cat-1": "Good: No",
+      "rank": 0,
+      "ini": 1,
+      "group": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0
+      ],
+      "cat_0_index": 1,
+      "rankvar": 1,
+      "clust": 0,
+      "cat-0": "Gender: Female",
+      "name": "Cell Line: H661",
+      "cat_1_index": 0
+    }
+  ]
+}
